@@ -1,13 +1,14 @@
-import { Sorter } from './Sorter';
 import { NumbersCollection } from './NumbersCollection';
 import { CharactersCollection } from './CharactersCollection';
 import { LinkedList } from './LinkedList';
 
 const numberArray = new NumbersCollection([0, -5, 2, -99]);
 numberArray.sort();
+console.log(numberArray.data);
 
 const string = new CharactersCollection('aBZoDz');
 string.sort();
+console.log(string.data);
 
 const linkedList = new LinkedList();
 linkedList.add(500);
